@@ -2,7 +2,7 @@ const studentsNames=["Jack","Maxwell","David","John","Jack","Olly"];
 const input_val1= document.querySelector(".input_val input");
 const btn = document.querySelector("#btn");
 const popup = document.querySelector("#popup")
-const findRes = () =>{
+const findRes = () => {
 
    input_val1.addEventListener("keyup",(e) => {
     if (studentsNames.some((name) => name.toLowerCase() === e.target.value.toLowerCase())) {
@@ -26,7 +26,7 @@ const findRes = () =>{
    });
 }
 
-Initial Function Call
+// Function Call
 findRes();
 
 
