@@ -4,7 +4,7 @@ const btn = document.querySelector("#btn");
 const popup = document.querySelector("#popup")
 const findRes = () => {
 
-   input_val1.addEventListener("keyup",(e) => {
+   input_val1.addEventListener("input",(e) => {
     if (studentsNames.some((name) => name.toLowerCase() === e.target.value.toLowerCase())) {
         input_val1.style.border=" 1px solid green";
         popup.style.color = "green";
